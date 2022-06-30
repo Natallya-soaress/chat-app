@@ -60,7 +60,7 @@ class SignUpActivity : AppCompatActivity() {
 
     }
 
-    private fun registerUser(userName:String,email:String,password:String){
+    private fun registerUser(userName:String, email:String, password:String){
         auth.createUserWithEmailAndPassword(email,password)
             .addOnCompleteListener(this){
                 if (it.isSuccessful){

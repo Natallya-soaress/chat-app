@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name">FirebaseChat</string>
-    <string name="enter_name">Enter Name</string>
-    <string name="enter_email">Enter Email</string>
-    <string name="type_message">Type Message</string>
-    <string name="label_sign_up">Sign Up</string>
-    <string name="btn_sign_up">Sign Up</string>
-    <string name="btn_login">Login</string>
-    <string name="btn_save">Save</string>
-    <string name="label_sign_in">Sign In</string>
-    <string name="label_message">Message</string>
-    <string name="label_profile">Profile</string>
-    <string name="enter_password">Enter Password</string>
-    <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="enter_name">Insira o nome</string>
+    <string name="enter_email">Insira o e-mail</string>
+    <string name="type_message">Insira a mensagem</string>
+    <string name="label_sign_up">Cadastrar-se</string>
+    <string name="btn_sign_up">Cadastrar-se</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_save">Salvar</string>
+    <string name="label_sign_in">Entrar</string>
+    <string name="label_message">Mensagem</string>
+    <string name="label_profile">Perfil</string>
+    <string name="enter_password">Insira a senha</string>
+    <string name="enter_confirm_password">Insira a senha novamente</string>
 </resources>

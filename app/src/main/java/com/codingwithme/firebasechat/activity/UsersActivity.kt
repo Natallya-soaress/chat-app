@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.codingwithme.firebasechat.R
 import com.codingwithme.firebasechat.adapter.UserAdapter
@@ -30,7 +31,7 @@ class UsersActivity : AppCompatActivity() {
             FirebaseService.token = it.token
         }
 
-        userRecyclerView.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
+        userRecyclerView.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
 
         imgBack.setOnClickListener {
             onBackPressed()
@@ -75,7 +76,6 @@ class UsersActivity : AppCompatActivity() {
                     val user = dataSnapShot.getValue(User::class.java)
 
                     if (!user!!.userId.equals(firebase.uid)) {
-
                         userList.add(user)
                     }
                 }
